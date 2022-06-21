@@ -1,0 +1,83 @@
+.my-account-label{
+    font-weight: 500;
+    color: grey;
+}
+
+.edit-my-account-label{
+    font-weight: 500;
+    color: grey;
+    display: block;
+}
+
+.my-account-p{
+    border: 1px solid grey;
+    width: 50vh auto;
+    padding: 10px 80px 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.edit-user-header{
+    font-weight: 500;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.edit-my-account-p{
+    border: 1px solid grey;
+    width: 50vh auto;
+    padding: 4px 110px 10px 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.log-out{
+    background-color: rgb(167, 12, 12);
+    color: white;
+    border: none;
+    width: 150px;
+    height: 40px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.edit-profile{
+    background-color: rgb(17, 17, 109);
+    color: white;
+    border: none;
+    width: 150px;
+    height: 40px;
+    font-size: 17px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.edit-profile-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.delete-my-account{
+    background-color: transparent;
+    color: red;
+    border: none;
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: -3px;
+    margin-left: -30px;
+    border-radius: 5px;
+    display: block;
+}
+
+.my-account-container{
+    margin: 60px 450px;
+   
+}
+
+.my-account{
+    margin: 60px 30px;
+}

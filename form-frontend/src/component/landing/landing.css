@@ -1,0 +1,82 @@
+.landing-signup, .landing-login{
+    display: block;
+    margin: 40px 70px;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(17, 17, 109);
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.39);
+}
+
+.landing-login{
+    background-color: transparent;
+    color: rgb(17, 17, 109);
+    border: 2px solid rgb(17, 17, 109);
+    font-weight: 600;
+}
+
+.landing-login:hover{
+    background-color: rgb(17, 17, 109);
+    color: white;
+}
+
+.landing-signup:hover{
+    background-color: rgb(30, 30, 131);
+}
+
+.landing-container{
+    margin: 60px 450px;
+}
+
+.landing-header{
+    font-weight: 500;
+    margin-left: 180px;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 700px){
+    .landing-container{
+        margin: 30px 75px;
+    }
+
+    .landing-signup, .landing-login{
+        margin: 50px 70px;
+    }
+
+    .landing-header{
+        margin-left: 180px;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .landing-container{
+        margin: 60px 0px;
+    }
+
+    .landing-signup, .landing-login{
+        margin: 50px 100px;
+    }
+
+    .landing-header{
+        margin-left: 200px;
+    }
+}
+
+@media only screen and (max-width: 1030px){
+    .landing-container{
+        margin: 30px 80px;
+    }
+
+    .landing-signup, .landing-login{
+        margin: 50px 70px;
+    }
+
+    .landing-header{
+        margin-left: 200px;
+    }
+}
