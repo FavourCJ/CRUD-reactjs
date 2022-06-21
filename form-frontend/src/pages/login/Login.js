@@ -22,7 +22,7 @@ function Login() {
 
   useEffect(() =>{
     getLoggedInUser();
-  })
+  }, [])
 
 //log user into account
 const logintoAccount = () =>{
@@ -32,7 +32,6 @@ const logintoAccount = () =>{
       if(formValue.email !== val.email){
         setLoginStatus("No user found")
       }else if(formValue.email === val.email){
-        setLoginStatus("")
         Axios.post ("http://localhost:3005/login", {
     email: formValue.email,
     password: formValue.password,

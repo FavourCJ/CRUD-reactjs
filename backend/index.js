@@ -36,8 +36,8 @@ app.use(
 const db = mysql.createConnection ({
     user: "root",
     host: "localhost",
-    password: "@2022-mysql.work",
-    database: "crud"
+    password: "password",
+    database: "database"
 
 })
 
